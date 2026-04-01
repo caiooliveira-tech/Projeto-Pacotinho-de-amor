@@ -1,11 +1,4 @@
 -- ============================================================
--- Projeto Pacotinho de Amor - Schema do Banco de Dados MySQL
--- ============================================================
-
-CREATE DATABASE IF NOT EXISTS pacotinho_de_amor CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
-USE pacotinho_de_amor;
-
--- ============================================================
 -- Tabela de usuários administrativos
 -- ============================================================
 CREATE TABLE IF NOT EXISTS users (
